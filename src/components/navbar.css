@@ -1,0 +1,197 @@
+.mynav{
+    display: flex;
+    background-color: #ffffff;
+    height: 70px;
+    box-shadow: inset;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+  }
+
+  .mynav>h1{
+    margin-right: 50px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  
+  .mysearch{
+    height: 40px;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 15px;
+    text-indent: 20px;
+    font-size: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .svg-icon.search-icon {
+    display: flex;
+    width: 25px;
+    height: 30px;
+    
+    /* On hover: blue strokes */
+    &:focus,
+    &:hover {
+      .search-path {
+        stroke: rgb(163, 66, 255);
+      }
+    }
+  
+    /* On click: thicker black strokes  */
+    &:active {
+      .search-path {
+        stroke: #111516;
+        stroke-width: 2px;
+      }
+    }
+  }
+  
+  .search-btn{
+    width: 25px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: -55px;
+    background-color: #f5f5f5;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .mynav-list{
+    list-style-type: none;
+    padding: 0px 50px;
+    font-weight: 500;
+    margin-right: 30px;
+    margin-left: auto;
+
+  }
+  
+  .mynav-list>li{
+    float: left;
+    padding: 16px;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: -20px;  
+  }
+  
+  
+  .fa-user-circle {
+    font-size: 36px;
+    color: rgb(163, 66, 255);
+    cursor: pointer;
+    margin-top: -4px;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 55px;
+    right: 40px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    width: 370px;
+    height: 170px;
+    border-radius: 10px;
+  }
+  
+  .sign-in-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #e6e6e6;
+  }
+
+.sign-in-icon {
+  margin-right: 10px;
+}
+  
+  .sign-in-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .dropdown-menu > li {
+    padding: 8px 12px;
+    cursor: pointer;
+    align-self: center;
+    text-align: center;
+  }
+  
+  .dropdown-menu > li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* .myvertnav{
+    display: block;
+    top: 60px;
+    left: 0px;
+    width: 220px;
+    height: 100vh;
+    box-shadow: inset;
+    background-color: #f5f5f5;
+    position: fixed;
+  }
+  
+  .myvertnav-list{
+    padding: 40px 10px;
+  }
+  
+  .myvertnav-list>li{
+    padding: 13px 0px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    margin: 0px;
+  
+  
+  &:hover{
+      background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+  }
+  }
+  
+  hr{
+    margin: 5px 0px;
+  }
+  
+  .vert-nav-btn{
+    display: inline-flex;
+    border: none;
+    font-size: 24px;
+    color: #111516;
+    margin: 0px 0px;
+    padding: 0%;
+    width: calc(100% - 40px); /* Adjusted width to fit within the vertical nav /
+  
+  }
+  
+  
+  .fa{
+    margin-right: -50px;
+  }
+  
+  
+  
+  .card-grid{
+    position: absolute;
+    left: 200px;
+    align-self: center;
+    display: grid;
+    grid-template: auto/1fr 1fr 1fr 1fr;
+    transition: top 0.2s ease;
+    margin-bottom: 200px;
+  } 
+  */
