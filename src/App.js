@@ -2,7 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/navbar';
 import Content from './components/content';
-import {HushhButton} from "hushh-button"
+//import {HushhButton} from "hushh-button"
+//import { getUserData, getAllUsers, HushhButton } from 'hushh-button-sdk';
+import HushhButton from "hushh-button-sdk"
 
 
 function App() {
@@ -27,9 +29,9 @@ function App() {
 
   return (
     <div className="App">
-    <Navbar/>
+      <Navbar/>
     <Content/>
-    <HushhButton questions={questionsArray} />
+    <HushhButton questions={questionsArray}/>
     </div>
   );
 }
