@@ -1,6 +1,6 @@
 .card-grid{
     position: absolute;
-    top: 70px;
+    top: 150px;
     left: 60px;
     align-self: center;
     display: grid;
@@ -25,7 +25,7 @@
     &:hover {
       transform: scale(1.2);
       height: auto; /* Adjust height to fit full content */
-      z-index: 10; /* Bring the card to the front */
+      z-index: 1; /* Bring the card to the front */
     }
   }
   
