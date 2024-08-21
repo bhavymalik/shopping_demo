@@ -37,3 +37,73 @@
     font-size: 34px;
     color: #7d7c7c;
 }
+
+@media (max-width: 1600px){
+    .category-buttons button{
+        font-size: 22px;
+        height: 38px;
+    }
+    .category-buttons .active {
+        font-size: 32px;
+    }.category-buttons{
+        padding: 9px 90px;
+    }.category-buttons button:hover {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1350px){
+    .category-buttons button{
+        font-size: 19px;
+        height: 35px;
+    }
+    .category-buttons .active {
+        font-size: 28px;
+    }.category-buttons{
+        padding: 8px 80px;
+    }.category-buttons button:hover {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1024px){
+    .category-buttons button{
+        font-size: 16px;
+        height: 32px;
+    }
+    .category-buttons .active {
+        font-size: 24px;
+    }.category-buttons{
+        padding: 7px 70px;
+    }.category-buttons button:hover {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 786px){
+    .category-buttons button{
+        font-size: 13px;
+        height: 28px;
+    }
+    .category-buttons .active {
+        font-size: 20px;
+    }.category-buttons{
+        padding: 6px 60px;
+    }.category-buttons button:hover {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 480px){
+    .category-buttons button{
+        font-size: 10px;
+        height: 24px;
+    }
+    .category-buttons .active {
+        font-size: 16px;
+    }.category-buttons{
+        padding: 5px 10px;
+    }.category-buttons button:hover {
+        font-size: 16px;
+    }
+}

@@ -9,105 +9,6 @@
     margin-bottom: 200px;
 }
 
-@media (max-width: 1600px){
-  .card-grid {
-    grid-template: auto/1fr 1fr 1fr; /* Reduce the number of cards in a row */
-    left: 30px;
-    top: 120px;
-}
-
-.btn{
-  width: 75px;
-  font-size: 10px;
-}
-}
-
-
-@media (max-width: 1350px){
-  .card-grid {
-    grid-template: auto/1fr 1fr 1fr; /* Reduce the number of cards in a row */
-    left: 30px;
-    top: 120px;
-}
-
-.btn{
-  width: 50px;
-  font-size: 8px;
-}
-}
-
-/* Media query for tablets and small laptops */
-@media (max-width: 1024px) {
-    .card-grid {
-        grid-template: auto/1fr 1fr; /* Reduce the number of cards in a row */
-        left: 30px;
-        top: 120px;
-    }
-
-    .card {
-        margin: 30px;
-    }
-
-    .btn{
-      width: 40px;
-      font-size: 6px;
-    }
-}
-
-/* Media query for mobile devices */
-@media (max-width: 768px) {
-    .card-grid {
-        grid-template: auto/1fr 1fr; /* Further reduce the number of cards in a row */
-        left: 20px;
-        top: 100px;
-    }
-
-    .card {
-        width: 100%;
-        margin: 20px;
-        height: auto;
-    }
-
-    .card-title {
-        font-size: 16px;
-    }
-
-    .card-description {
-        -webkit-line-clamp: 2; /* Show fewer lines for mobile */
-    }
-
-    .btn {
-        width: 30px;
-        font-size: 6px;
-        margin-left: 60%;
-    }
-}
-
-/* Media query for very small mobile devices */
-@media (max-width: 480px) {
-    .card-grid {
-        grid-template: auto/1fr; /* Display one card per row */
-        left: 10px;
-        top: 80px;
-    }
-
-    .card {
-        margin: 15px;
-        padding: 10px;
-        height: auto;
-    }
-
-    .card-title {
-        font-size: 14px;
-    }
-
-    .btn {
-        width: 25px;
-        font-size: 5px;
-        margin-left: 50%;
-    }
-}
-
 .card {
     width: auto;
     height: 620px;
@@ -152,7 +53,10 @@
 }
 
 .card-price {
+    position: relative;
     margin-top: -15px;
+    margin-left: -55%;
+    margin-right: auto;
 }
 
 .card-title {
@@ -192,3 +96,122 @@
 .btn:hover {
     background-color: black;
 }
+
+@media (max-width: 1600px){
+  .card-grid {
+    grid-template: auto/1fr 1fr 1fr; /* Reduce the number of cards in a row */
+    left: 30px;
+    top: 120px;
+}.card{
+    margin: 40px;
+}.card-title{
+    font-size: 17px;
+}.card-description{
+    font-size: 15px;
+}
+
+.btn{
+  width: 75px;
+  font-size: 10px;
+}
+}
+
+
+@media (max-width: 1350px){
+  .card-grid {
+    grid-template: auto/1fr 1fr 1fr; /* Reduce the number of cards in a row */
+    left: 30px;
+    top: 120px;
+}.card{
+    margin: 30px;
+}.card-title{
+    font-size: 15px;
+}.card-description{
+    font-size: 13px;
+}
+
+.btn{
+  width: 65px;
+  font-size: 9px;
+}
+}
+
+/* Media query for tablets and small laptops */
+@media (max-width: 1024px) {
+    .card-grid {
+        grid-template: auto/1fr 1fr; /* Reduce the number of cards in a row */
+        left: 30px;
+        top: 120px;
+    }
+    .card {
+        margin: 20px;
+    }.card-title{
+        font-size: 15px;
+    }.card-description{
+        font-size: 13px;
+    }
+
+    .btn{
+      width: 40px;
+      font-size: 8px;
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .card-grid {
+        grid-template: auto/ 1fr; /* Further reduce the number of cards in a row */
+        left: 20px;
+        top: 100px;
+    }
+
+    .card {
+        width: 100%;
+        margin: 20px;
+        height: auto;
+    }
+
+    .card-title {
+        font-size: 15px;
+    }.card-description{
+        font-size: 13px;
+    }
+
+    .card-description {
+        -webkit-line-clamp: 2; /* Show fewer lines for mobile */
+    }
+
+    .btn {
+        width: 60px;
+        font-size: 7px;
+        margin-left: 70%;
+    }
+}
+
+/* Media query for very small mobile devices */
+@media (max-width: 480px) {
+    .card-grid {
+        grid-template: auto/1fr; /* Display one card per row */
+        left: 10px;
+        top: 80px;
+    }
+
+    .card {
+        margin: 20px;
+        padding: 10px;
+        height: auto;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }.card-description{
+        font-size: 12px;
+    }
+
+    .btn {
+        width: 80px;
+        font-size: 8px;
+        margin-left: 50%;
+    }
+}
+
