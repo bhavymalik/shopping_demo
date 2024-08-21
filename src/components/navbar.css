@@ -238,5 +238,26 @@
     height: 20px;
   }
 }
+
+@media (max-width: 360px){
+  .mynav>h1{
+    font-size: 26px;
+  }.mynav-list>li{
+    font-size: 14px;
+    padding: 7px;
+  }.fa-user-circle{
+    font-size: 18px;
+  }.mysearch{
+    width: 200px;
+    height: 23px;
+    font-size: 8px
+  }.mynav-list{
+    margin-right: 12px;
+    padding: 0px 8px;
+  }.svg-icon.search-icon,.search-btn  {
+    width: 12px;
+    height: 16px;
+  }
+}
   
   

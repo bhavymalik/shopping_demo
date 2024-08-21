@@ -107,3 +107,17 @@
         font-size: 16px;
     }
 }
+
+@media (max-width: 360px){
+    .category-buttons button{
+        font-size: 8px;
+        height: 21px;
+    }
+    .category-buttons .active {
+        font-size: 13px;
+    }.category-buttons{
+        padding: 5px 10px;
+    }.category-buttons button:hover {
+        font-size: 13px;
+    }
+}
