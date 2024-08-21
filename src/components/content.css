@@ -103,7 +103,7 @@
         font-size: 16px;
     }.category-buttons{
         padding: 5px 10px;
-        width: 100%;
+        width: 100vw;
         margin-left: -10px;
     }.category-buttons button:hover {
         font-size: 16px;
