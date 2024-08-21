@@ -185,6 +185,10 @@
         width: 60px;
         font-size: 7px;
         margin-left: 70%;
+    }.card:hover {
+        transform: scale(1.0);
+        height: auto;
+        z-index: 1;
     }
 }
 
