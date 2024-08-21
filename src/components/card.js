@@ -31,7 +31,7 @@ export default function Card(props) {
             onMouseEnter={() => setHovered(true)} 
             onMouseLeave={() => setHovered(false)}
         >
-            <img src={imageUrl} alt="" className="card-photo" onClick={handleClick} />
+            <img src={imageUrl} alt="" className="card-photo"  />
             {badgeText && <button className="btn">{badgeText}</button>}
             {props.obj.price_available && <p className='card-price'><b>From {props.obj.currency} {props.obj.price}</b></p>}
             <i className="fa fa-shopping-cart" ></i>
