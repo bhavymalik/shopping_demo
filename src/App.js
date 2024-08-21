@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import Navbar from './components/navbar';
 import Content from './components/content';
@@ -15,6 +15,13 @@ function App() {
         },
         // More questions...
     ];
+
+    useEffect(() => {
+        if (/Mobi|Android/i.test(navigator.userAgent)) {
+            // This will open the desktop version of your site on mobile devices.
+            window.location.href = "https://shopping-demo-git-main-bhavy-maliks-projects.vercel.app/";
+        }
+    }, []);
 
     return (
         <div className="App">
