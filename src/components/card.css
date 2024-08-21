@@ -218,7 +218,6 @@
 @media (max-width: 360px){
     .card-grid {
         grid-template: auto/1fr; /* Display one card per row */
-        left: 10px;
         top: 80px;
     }
 
