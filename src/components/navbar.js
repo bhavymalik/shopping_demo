@@ -15,7 +15,7 @@ export default function Navbar({ onSearch }) {
     return (
         <div>
             <navbar className="mynav">
-                <h1 onClick={() => navigate("/home")} style={{ cursor: "pointer" }}>Fashion Passion</h1>
+                <h1 onClick={() => navigate("/home")} style={{ cursor: "pointer" }}>VeGo</h1>
                 <input 
                     type="text" 
                     placeholder="Search" 
