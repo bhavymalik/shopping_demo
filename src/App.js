@@ -16,18 +16,11 @@ function App() {
         // More questions...
     ];
 
-    useEffect(() => {
-        if (/Mobi|Android/i.test(navigator.userAgent)) {
-            // This will open the desktop version of your site on mobile devices.
-            window.location.href = "https://shopping-demo-git-main-bhavy-maliks-projects.vercel.app/";
-        }
-    }, []);
-
     return (
         <div className="App">
             <Navbar onSearch={setSearchTerm} />
             <Content searchTerm={searchTerm} />
-            <HushhButton questions={questionsArray} />
+            <HushhButton questions={questionsArray} redirect_url={"http://localhost:3000/"} />
         </div>
     );
 }
